@@ -1,0 +1,25 @@
+<div id="mycart" class="small-10 small-centered medium-8 large-8 column">
+  <div class="p1 glassy-bg mb1 text-center radius-l1 radius-r1">
+    <h4>My Cart</h4>
+    <p class="mb0"> You've selected <span class="cart-count"><%=current_user.cart_count%></span> deliveries!</p>
+  </div>
+ 
+  <% @cart_deliveries.each do |delivery|%>
+  <div data-equalizer class="cart-delivery large-12 column mb1">
+    <div class="column large-2 text-center p0" data-equalizer-watch>
+      <%=link_to delivery do%>
+        <%=image_tag delivery.image_url, class: "radius-l1"%>
+      <%end%>
+    </div>
+    <div class="column large-7 glassy-bg text-center" data-equalizer-watch>
+        <p class="scale ptm"> <%= delivery.item %> </p>
+    </div>
+    <div class="column large-3 primary-bg text-center radius-r1" data-equalizer-watch>
+      <%=link_to "" , data: {targetUrl: remove_from_cart_path(delivery)} do%>
+        <i class="fi-x right"></i>
+      <%end%>
+      <h4 class="scale">$ <%= delivery.price %></h4>
+    </div>
+  </div>
+  <%end%>
+</div>

@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h4 class="column">Featured Deliveries</h4>
+<div class=column">
+<ul class="deliveries-grid no-bullet row">
+    <% @deliveries.each do |delivery| %>
+    <li class="larg-3 medium-4 small-12 column">
+      <div class="delivery-card padly">
+      <%= link_to delivery, class: "image" do %>
+      <%= image_tag delivery.image_url%>
+      <% end %>
+      <div class="delivery-info ell glassy-bg padmy padlx">
+      <div class="item">
+      <h6><%= delivery.item %></h6>
+      </div>
+      <p class="left price label delivery-label radius">$ <%= delivery.price %></p>
+      </div>
+        </div>
+      </li>
+    <% end %>
+  </ul>
+</div>
+
+
+

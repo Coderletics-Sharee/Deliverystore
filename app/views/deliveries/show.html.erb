@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<div class="large-3 small-12 column">
+  <%=image_tag @delivery.image_url%>
+</div>
+ 
+<div class="large-9 small-12 column">
+  <h3>
+    <%= @delivery.item %>
+  </h3>
+  <p class="label delivery-label radius mb1">$ <%= @delivery.price %></p>
+ 
+  <p><%= @delivery.description %></p>
+  <%if signed_in?%>
+  <%=link_to "", class: "button", data: {target: @cart_action, addUrl: add_to_cart_path(@delivery), removeUrl: remove_from_cart_path(@delivery)} do%>
+    <i class="fi-shopping-cart"></i>
+    <span><%=@cart_action%></span> Cart
+  <%end%>
+<%end%>
+</div>
+<%= link_to 'Back', deliveries_path %>

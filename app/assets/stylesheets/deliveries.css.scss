@@ -1,0 +1,14 @@
+// Index page style
+.deliveries-grid {
+  .delivery-card {
+    width:220px;
+    margin:auto;
+    .image img {
+      height: 325px;
+      width:100%;
+    }
+    .delivery-info {
+      .title { height: 4em; }
+    }
+  }
+}
