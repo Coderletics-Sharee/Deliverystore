@@ -1,4 +1,6 @@
 class Delivery < ActiveRecord::Base
+has_many :purchases
+has_many :buyers, through: :purchases
 def image
     '../images/#{image_url}'
   end

@@ -8,7 +8,9 @@
   <h3>
     <%= @delivery.item %>
   </h3>
-  <p class="label delivery-label radius mb1">$ <%= @delivery.price %></p>
+  <p class="label delivery-label radius mb1">
+      <%= (current_user && current_user.purchase?(@delivery)) ? "Purchased" : "$#{@delivery.price}" %>
+    </p>
  
   <p><%= @delivery.description %></p>
   <%if signed_in?%>
