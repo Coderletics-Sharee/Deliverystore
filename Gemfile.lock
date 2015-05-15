@@ -40,6 +40,8 @@ GEM
     bcrypt (3.1.10)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    braintree (2.33.1)
+      builder (>= 2.0.0)
     builder (3.2.2)
     byebug (4.0.3)
       columnize (= 0.9.0)
@@ -61,6 +63,9 @@ GEM
       warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.4.0)
+    figaro (0.7.0)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
     foundation-rails (5.5.1.0)
       railties (>= 3.1.0)
       sass (>= 3.3.0, < 3.5)
@@ -164,9 +169,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  braintree (~> 2.33.1)
   byebug
   coffee-rails (~> 4.1.0)
   devise
+  figaro (~> 0.7.0)
   foundation-rails
   hiredis (~> 0.4.5)
   jbuilder (~> 2.0)
