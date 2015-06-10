@@ -22,4 +22,6 @@
     </div>
   </div>
   <%end%>
+  <%=link_to "Checkout", new_transaction_path, class: "button" unless current_user.get_cart_deliveries.blank?%>
+
 </div>

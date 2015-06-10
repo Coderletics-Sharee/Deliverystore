@@ -143,3 +143,7 @@
 [495] 10 Jun 08:12:51.370 # Server started, Redis version 2.8.19
 [495] 10 Jun 08:12:51.370 * DB loaded from disk: 0.001 seconds
 [495] 10 Jun 08:12:51.370 * The server is now ready to accept connections on port 6379
+[495] 10 Jun 09:12:52.023 * 1 changes in 3600 seconds. Saving...
+[495] 10 Jun 09:12:52.024 * Background saving started by pid 3511
+[3511] 10 Jun 09:12:52.034 * DB saved on disk
+[495] 10 Jun 09:12:52.125 * Background saving terminated with success
