@@ -147,3 +147,11 @@
 [495] 10 Jun 09:12:52.024 * Background saving started by pid 3511
 [3511] 10 Jun 09:12:52.034 * DB saved on disk
 [495] 10 Jun 09:12:52.125 * Background saving terminated with success
+[495] 10 Jun 14:46:35.422 * 1 changes in 3600 seconds. Saving...
+[495] 10 Jun 14:46:35.423 * Background saving started by pid 5147
+[5147] 10 Jun 14:46:35.431 * DB saved on disk
+[495] 10 Jun 14:46:35.524 * Background saving terminated with success
+[495] 10 Jun 15:46:36.068 * 1 changes in 3600 seconds. Saving...
+[495] 10 Jun 15:46:36.068 * Background saving started by pid 5348
+[5348] 10 Jun 15:46:36.077 * DB saved on disk
+[495] 10 Jun 15:46:36.169 * Background saving terminated with success
