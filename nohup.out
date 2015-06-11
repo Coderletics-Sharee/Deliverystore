@@ -155,3 +155,46 @@
 [495] 10 Jun 15:46:36.068 * Background saving started by pid 5348
 [5348] 10 Jun 15:46:36.077 * DB saved on disk
 [495] 10 Jun 15:46:36.169 * Background saving terminated with success
+[495] 10 Jun 19:22:45.004 * 1 changes in 3600 seconds. Saving...
+[495] 10 Jun 19:22:45.005 * Background saving started by pid 5456
+[5456] 10 Jun 19:22:45.796 * DB saved on disk
+[495] 10 Jun 19:22:45.814 * Background saving terminated with success
+nohup: redis.server: No such file or directory
+[495 | signal handler] (1433990016) Received SIGTERM scheduling shutdown...
+[495 | signal handler] (1433990016) Received SIGTERM scheduling shutdown...
+[495] 10 Jun 22:33:36.559 # User requested shutdown...
+[495] 10 Jun 22:33:36.559 * Saving the final RDB snapshot before exiting.
+[495] 10 Jun 22:33:36.561 * DB saved on disk
+[495] 10 Jun 22:33:36.561 # Redis is now ready to exit, bye bye...
+nohup: redis.server: No such file or directory
+[477] 10 Jun 22:36:57.674 # Warning: no config file specified, using the default config. In order to specify a config file use redis-server /path/to/redis.conf
+[477] 10 Jun 22:36:57.676 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 2.8.19 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in stand alone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 477
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+[477] 10 Jun 22:36:57.683 # Server started, Redis version 2.8.19
+[477] 10 Jun 22:36:57.685 * DB loaded from disk: 0.001 seconds
+[477] 10 Jun 22:36:57.685 * The server is now ready to accept connections on port 6379
+[477] 10 Jun 23:36:58.041 * 1 changes in 3600 seconds. Saving...
+[477] 10 Jun 23:36:58.041 * Background saving started by pid 883
+[883] 10 Jun 23:36:58.051 * DB saved on disk
+[477] 10 Jun 23:36:58.142 * Background saving terminated with success
+[477] 11 Jun 00:54:54.690 * 1 changes in 3600 seconds. Saving...
+[477] 11 Jun 00:54:54.693 * Background saving started by pid 1039
+[1039] 11 Jun 00:54:54.695 * DB saved on disk
+[477] 11 Jun 00:54:54.794 * Background saving terminated with success
